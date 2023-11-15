@@ -27,3 +27,8 @@ $ git commit -m ‘Delete g’: 파일 g가 삭제된 상태에서 커밋<br>
 ▽<br>
 $ git rm --cached f: 스테이징 영역에서 파일 f 삭제<br>
 <br>
+
+### 작업 디렉토리만 파일 삭제
+WD에만 파일 f가 있는 상태
+
+$ rm f: 작업 디렉토리에서 파일 f 삭제
