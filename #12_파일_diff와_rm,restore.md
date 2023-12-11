@@ -28,3 +28,13 @@ $ git diff<br>
 $ git diff --staged<br>
 $ git diff HEAD<br>
 <br>
+
+### 파일 커밋 비교
+3 영역이 모두 동일<br>
+$ git commit -m B<br>
+$ git log --oneline<br>
+$ git status<br>
+$ git diff<br>
+$ git diff --staged<br>
+$ git diff HEAD<br>
+<br>
