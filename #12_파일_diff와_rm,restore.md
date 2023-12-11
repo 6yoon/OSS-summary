@@ -46,3 +46,14 @@ $ git diff HEAD<u>~ </u>HEAD<br>
 $ git diff HEAD HEAD~<br>
 $ git diff --staged HEAD~<br>
 $ git diff HEAD~<br>
+<br>
+
+## 파일 삭제 rm과 복구 restore
+
+### 명령 별칭(git alias) 생성
+계속 사용하는 깃 명령을 짧게 다른 이름으로 만드는 방법<br>
+$ git config --global alias.ss 'status -s'<br>
+다음과 동일하다<br>
+$ git status -s<br>
+$ git ss<br>
+<br>
