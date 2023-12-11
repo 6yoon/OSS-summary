@@ -38,3 +38,11 @@ $ git diff<br>
 $ git diff --staged<br>
 $ git diff HEAD<br>
 <br>
+
+### 버전 간의 파일 비교
+HEAD~와 HEAD 비교<br>
+이전 버전과 작업 디렉토리, 스테이징 영역 비교<br>
+$ git diff HEAD~ HEAD<br>
+$ git diff HEAD HEAD~<br>
+$ git diff --staged HEAD~<br>
+$ git diff HEAD~<br>
