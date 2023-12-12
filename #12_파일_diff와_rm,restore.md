@@ -67,3 +67,12 @@ $ git commit -m 1<br>
 $ git log --oneline<br>
 $ ls<br>
 <br>
+
+### 파일 g 삭제 
+파일 g를 WD와 SA에서 함께 삭제<br>
+$ git ss<br>
+$ git rm g<br>
+$ git ss<br>
+$ ls <br>
+$ ls-files<br>
+<br>
