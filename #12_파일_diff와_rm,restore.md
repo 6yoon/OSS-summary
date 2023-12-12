@@ -89,6 +89,42 @@ $ git show<br>
 <br>
 
 ### 스테이징 영역에서 g 파일 복원
-파일 g는 HEAD<u>~ </u>에 있는 상태
-$ git ls-files
-$ git restore --source=HEAD<u>~ </u>--staged g
+파일 g는 HEAD<u>~ </u>에 있는 상태<br>
+$ git ls-files<br>
+$ git restore --source=HEAD<u>~ </u>--staged g<br>
+$ git status<br>
+$ git ss<br>
+$ git ls-files<br>
+$ ls<br>
+<br>
+
+### 작업 디렉토리 파일 g 복원
+스테이징 영역의 파일 g를 작업 디렉토리에 복사<br>
+$ git restore g<br>
+$ git status<br>
+$ git ss<br>
+<br>
+
+### 스테이징 영역에서만 삭제
+파일 g를 스테이징 영역에서만 삭제<br>
+$ git rm --cached g<br>
+$ git ls-files<br>
+$ git status<br>
+<br>
+
+### 작업 디렉토리에서만 삭제
+파일 g를 작업 디렉토리에서만 삭제<br>
+$ rm g<br>
+$ git ss<br>
+$ git rm g<br>
+$ git ss<br>
+<br>
+
+### 두 영역에서 파일 f 삭제 후 작업 디렉토리만 복원
+먼저 파일 f를 작업 디렉토리와 스테이징 영역에서 삭제<br>
+$ git rm f<br>
+깃 저장소의 최신 커밋 상태의 파일 f를 작업 디렉토리에 복원<br>
+$ git restore --source=HEAD f<br>
+<br>
+
+### 두 영역에서 파일 f 삭제 후 모두 복원
