@@ -89,6 +89,6 @@ $ git show<br>
 <br>
 
 ### 스테이징 영역에서 g 파일 복원
-파일 g는 HEAD~에 있는 상태
+파일 g는 HEAD<u>~ </u>에 있는 상태
 $ git ls-files
-$ git restore --source=HEAD~~--staged g
+$ git restore --source=HEAD<u>~ </u>--staged g
