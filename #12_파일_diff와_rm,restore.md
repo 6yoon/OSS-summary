@@ -57,3 +57,13 @@ $ git config --global alias.ss 'status -s'<br>
 $ git status -s<br>
 $ git ss<br>
 <br>
+
+### 파일 g 생성 후 커밋
+명령 별칭 ss 생성<br>
+$ git config --global alias.ss 'status -s'<br>
+$ echo 111 > g<br>
+$ git add f g<br>
+$ git commit -m 1<br>
+$ git log --oneline<br>
+$ ls<br>
+<br>
