@@ -128,3 +128,11 @@ $ git restore --source=HEAD f<br>
 <br>
 
 ### 두 영역에서 파일 f 삭제 후 모두 복원
+깃 저장소의 최신 커밋 상태의 파일 f를 두 영역에 모두 복원<br>
+$ rm f<br>
+$ git restore --source=HEAD --staged --worktree f<br>
+$ ls<br>
+$ git ls-files<br>
+$ git ss<br>
+$ git status<br>
+<br>
