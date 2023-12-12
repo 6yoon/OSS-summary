@@ -58,7 +58,7 @@ $ git status -s<br>
 $ git ss<br>
 <br>
 
-### 파일 g 생성 후 커밋
+### 파일 g 생성 후 커밋밋
 명령 별칭 ss 생성<br>
 $ git config --global alias.ss 'status -s'<br>
 $ echo 111 > g<br>
@@ -75,4 +75,15 @@ $ git rm g<br>
 $ git ss<br>
 $ ls <br>
 $ ls-files<br>
+<br>
+
+### 현재 상태 커밋
+파일 g를 삭제한 상태를 커밋<br>
+$ git ss<br>
+$ git commit -m 'delete g'<br>
+$ git ss<br>
+$ ls<br>
+$ git ls-files<br>
+$ git log --oneline<br>
+$ git show<br>
 <br>
