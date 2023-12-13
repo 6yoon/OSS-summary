@@ -68,5 +68,5 @@ $ git stash show -p
 - drop : 최신이나 지정한 임시 저장 삭제
 - clear : 모든 임시 저장 삭제
 
-### ### Untracked file 삭제
+### Untracked file 삭제
 새로 생성한 파일 삭제
