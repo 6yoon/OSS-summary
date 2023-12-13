@@ -13,22 +13,22 @@
     - reset 실행 시 무조건 깃 저장소에는 복사, WD와 SA는?
 
 **reset 옵션 --hard**
-$ git reset --hard HEAD~
-→ 지정된 HEAD~ (커밋 메세지 Alphabet)의 내용으로 WD, SA, GR 모두 복사, 수정 
-  (reset 전에 있던 WD, SA 작업 내용이 모두 사라지므로 주의)
+$ git reset --hard HEAD~<br>
+→ 지정된 HEAD~ (커밋 메세지 Alphabet)의 내용으로 WD, SA, GR 모두 복사, 수정 <br>
+  (reset 전에 있던 WD, SA 작업 내용이 모두 사라지므로 주의)<br>
 
 **reset 옵션 --mixed**
-$ git reset --mixed HEAD~
-지정된 HEAD~(커밋 메시지 Alphabet)의 내용으로 SA와 GR 모두 복사 , 수정
-→ 커밋 메시지 Alphanumeric의 로그 이력과 함께 당시의 SA, GR 내용 모두 사라짐 
-→ 다만 WD의 내용은 그대로 남음 
-→ 옵션 --mixed는 옵션이 없는 것과 같음
+$ git reset --mixed HEAD~<br>
+지정된 HEAD~(커밋 메시지 Alphabet)의 내용으로 SA와 GR 모두 복사 , 수정<br>
+→ 커밋 메시지 Alphanumeric의 로그 이력과 함께 당시의 SA, GR 내용 모두 사라짐<br> 
+→ 다만 WD의 내용은 그대로 남음 <br>
+→ 옵션 --mixed는 옵션이 없는 것과 같음<br>
 
 **reset 옵션 soft**
-$ git reset --soft HEAD~
-지정된 HEAD~(커밋 메시지 Alphabet)의 내용으로 GR만 복사, 수정
-→ 커밋 메시지 Alphanumeric의 로그 이력은 사라짐
-→ WD와 SA의 내용 모두 이전 그대로 남음
+$ git reset --soft HEAD~<br>
+지정된 HEAD~(커밋 메시지 Alphabet)의 내용으로 GR만 복사, 수정<br>
+→ 커밋 메시지 Alphanumeric의 로그 이력은 사라짐<br>
+→ WD와 SA의 내용 모두 이전 그대로 남음<br>
 
 ## reset 정리, checkout과 reset 비교
 
